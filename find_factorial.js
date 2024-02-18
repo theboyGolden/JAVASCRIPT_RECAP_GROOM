@@ -11,3 +11,6 @@ function factorial(n) {
     // Recursive case: factorial of n is n times factorial of (n - 1)
     return n * factorial(n - 1);
 }
+
+// Example usage:
+console.log(factorial(5)); // Output: 120
