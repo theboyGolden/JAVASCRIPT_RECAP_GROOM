@@ -14,3 +14,13 @@ function fizzBuzz(n) {
         // Check if the number is a multiple of 5
         else if (i % 5 === 0) {
             console.log("Buzz");
+        }
+        // For other numbers, simply print the number itself
+        else {
+            console.log(i);
+        }
+    }
+}
+
+// Example usage:
+fizzBuzz(15); // Output: Prints the FizzBuzz sequence from 1 to 15
